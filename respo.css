@@ -1,0 +1,159 @@
+@media screen and (max-width: 1000px) {
+    .lower-header-left-div{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+        padding-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 900px){
+    .lower-header-left-div h1{
+        font-size: 2rem;
+    }
+    
+    .lower-header-left-div p{
+        font-size: 1.1rem;
+    }
+
+
+    .section-card-4{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-inline: auto;
+        align-self: center;
+        margin-bottom: 50px;
+        gap: 25px;
+    }
+
+    .section-card{
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        gap: 15px;
+        box-shadow: 0px 2px 8px rgb(184, 184, 184);
+        border-radius: 15px;
+    }
+
+    .section-card:hover{
+        width: 40%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        gap: 15px;
+        box-shadow: 0px 4px 20px rgb(136, 136, 136);
+        border-radius: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .lower-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 90%;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-top: 60px;
+        gap: 50px;
+    }
+
+    .lower-header-left-div{
+        width: 80%;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .lower-header-right-div{
+        width: 80%;
+    }
+
+    .lower-header-left-div h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    .lower-header-left-div p{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .lower-header-left-div a{
+        font-size: 1rem;
+        padding: 15px;
+        border-radius: 15px;
+        border: 1px solid rgb(197, 197, 197);
+        box-shadow: 0px 1px 10px rgb(198, 198, 198);
+        text-decoration: none;
+        background-color: rgb(244, 47, 47);
+        color: rgb(255, 255, 255);
+        width: fit-content;
+        padding-inline: 40px;
+        margin-top: 20px;
+        align-self: center;
+    }
+
+
+    .section-card{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        gap: 15px;
+        box-shadow: 0px 2px 8px rgb(184, 184, 184);
+        border-radius: 15px;
+    }
+
+    .section-card:hover{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        gap: 15px;
+        box-shadow: 0px 4px 20px rgb(136, 136, 136);
+        border-radius: 15px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .lower-header-left-div{
+        width: 95%;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .lower-header-right-div{
+        width: 80%;
+    }
+}
