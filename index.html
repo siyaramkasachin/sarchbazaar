@@ -20,11 +20,25 @@
             <div class="content-nav-left">
                 <img src="images/logo.webp" alt="" height="50px">
             </div>
-            <div class="content-nav-right">
+            <div class="content-nav-right" id="navbar-list">
                 <a style="cursor: pointer;" class="nav-btn-a" onclick="document.getElementById('section-3').scrollIntoView({behavior: 'smooth', block: 'center' })">Our Model</a>
                 <a style="cursor: pointer;" onclick="document.getElementById('section-4-upper').scrollIntoView({behavior: 'smooth', block: 'center' })" class="nav-btn-a">Opportunity</a>
                 <a style="cursor: pointer;" onclick="document.getElementById('chek').scrollIntoView({behavior: 'smooth', block: 'center' })" class="nav-btn-a">Mission</a>
                 <a style="cursor: pointer;" onclick="document.getElementById('section-6-upper').scrollIntoView({behavior: 'smooth', block: 'center' })" class="nav-btn-a">Trend</a>
+            </div>
+            <a href="#" id="bars" style="font-size: 1.5rem;">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+
+            <div id="res-nav" class="res-navbar">
+                <ul id="res-navbar-list">
+                    <li><a href="about-us.html" style="color: #000000;">About</a></li>
+                    <li><a href="contact.html" style="color: #000000;">Contact Us</a></li>
+                    <li><a href="faq.html" style="color: #000000;">FAQs</a></li>
+                    
+                    <li><a href="https://khelozi.talkfever.com/point-system.html" style="color: #000000;">Point System</a></li>
+                </ul>
             </div>
         </nav>
     </div>
@@ -250,6 +264,27 @@
 
 
 </body>
+
+<script>
+    const toggleButton = document.getElementById('bars');
+    const navLinks = document.getElementById('res-nav');
+
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    })
+
+    const accordian = document.querySelectorAll('.accordian');
+
+    accordian.forEach(accordian => {
+        const icon = accordian.querySelector('.icon');
+        const answer = accordian.querySelector('.answer');
+
+        accordian.addEventListener('click', () => {
+            icon.classList.toggle('active');
+            answer.classList.toggle('active');
+        })
+    })
+</script>
 
 <script src="https://kit.fontawesome.com/1911cccf54.js" crossorigin="anonymous"></script>
 </html>
