@@ -368,6 +368,7 @@
 
     .lower-header-right-div{
         width: 80%;
+        margin-inline: auto;
     }
 
     .lower-header-left-div h1{
