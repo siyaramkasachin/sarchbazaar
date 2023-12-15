@@ -38,6 +38,11 @@
     transition-duration: 0.2s;
 }
 
+
+.nav-back{
+    box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.283);
+}
+
 .res-navbar.active {
     left: 5%;
 }
